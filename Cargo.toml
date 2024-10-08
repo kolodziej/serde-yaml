@@ -1,6 +1,6 @@
 [package]
 name = "serde_yaml"
-version = "0.9.34+deprecated"
+version = "0.9.34"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
 categories = ["encoding", "parser-implementations"]
 description = "YAML data format for Serde"
@@ -12,16 +12,16 @@ repository = "https://github.com/dtolnay/serde-yaml"
 rust-version = "1.64"
 
 [dependencies]
-indexmap = "2.2.1"
-itoa = "1.0"
-ryu = "1.0"
-serde = "1.0.195"
+indexmap = "2.6.0"
+itoa = "1.0.11"
+ryu = "1.0.18"
+serde = "1.0.210"
 unsafe-libyaml = "0.2.11"
 
 [dev-dependencies]
-anyhow = "1.0.79"
-indoc = "2.0"
-serde_derive = "1.0.195"
+anyhow = "1.0.89"
+indoc = "2.0.5"
+serde_derive = "1.0.210"
 
 [lib]
 doc-scrape-examples = false
